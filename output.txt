@@ -1,0 +1,28 @@
+Adjacency Matrix (undirected):
+  a b c d e f g h i 
+a 0 0 1 0 0 0 0 0 0 
+b 0 0 0 1 0 0 0 0 0 
+c 1 0 0 1 1 0 0 0 0 
+d 0 1 1 0 1 1 0 0 0 
+e 0 0 1 1 0 0 0 0 0 
+f 0 0 0 1 0 0 1 0 0 
+g 0 0 0 0 0 1 0 1 1 
+h 0 0 0 0 0 0 1 0 0 
+i 0 0 0 0 0 0 1 0 0 
+
+BFS: acdebfghi
+DFS: acedfgihb
+
+Adjacency Matrix (directed w/wights):
+  a b c d e f g h i 
+a 0 0 4 0 0 0 0 0 0 
+b 0 0 0 0 0 0 0 0 0 
+c 0 0 0 1 7 0 0 0 0 
+d 0 3 0 0 2 3 0 0 9 
+e 0 0 0 0 0 0 0 0 0 
+f 0 0 0 3 2 0 1 0 0 
+g 0 0 0 0 0 0 0 4 3 
+h 0 0 0 0 0 0 0 0 0 
+i 0 0 0 0 0 0 0 0 0 
+
+Dijkstra’s: a:0,b:8,c:4,d:5,e:7,f:8,g:9,h:13,i:12,
